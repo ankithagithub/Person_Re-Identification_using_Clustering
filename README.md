@@ -5,6 +5,11 @@ This repository contains Jupyter Notebooks and resources for person re-identific
 2. Detecting bounding boxes around persons in the frames.
 3. Cropping the detected objects (persons) from the frames.
 4. Clustering the cropped objects using k-means clustering.
+   <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="">
+  <img alt="" src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
+
 
 ## Repository Structure
 - `video_to_frames1.ipynb`: Notebook to convert video files into individual frames.
