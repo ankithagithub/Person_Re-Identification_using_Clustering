@@ -26,21 +26,21 @@ pip install -r requirements.txt
 ```
 
 ## Usage
--Step 1: Convert Video to Frames
+- Step 1: Convert Video to Frames
 
-Open video_to_frames1.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to convert a video file into individual frames.
+  Open video_to_frames1.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to convert a video file into individual frames.
 
--Step 2: Detect Bounding Boxes
+- Step 2: Detect Bounding Boxes
 
-Open frames_to_bounding_boxes.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to detect bounding boxes in the frames.
+  Open frames_to_bounding_boxes.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to detect bounding boxes in the frames.
 
--Step 3: Crop Objects from Frames
+- Step 3: Crop Objects from Frames
 
-Open bounding_boxes_to_cropped_objects.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to crop objects from frames based on the detected bounding boxes.
+  Open bounding_boxes_to_cropped_objects.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to crop objects from frames based on the detected bounding boxes.
 
--Step 4: Perform Clustering
+- Step 4: Perform Clustering
 
-Open K-Means_clustering.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to perform k-means clustering on the cropped objects.
+  Open K-Means_clustering.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to perform k-means clustering on the cropped objects.
 
 ## License
 
