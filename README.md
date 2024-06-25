@@ -40,6 +40,7 @@ Step 4: Perform Clustering
 
 Open cropped_objects_clustering.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to perform k-means clustering on the cropped objects.
 
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
@@ -48,6 +49,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
 
-##Acknowledgments
+## Acknowledgments
 
 Special thanks to all the contributors and the open-source community for providing the tools and libraries used in this project.
