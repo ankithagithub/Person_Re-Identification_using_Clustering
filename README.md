@@ -5,13 +5,8 @@ This repository contains Jupyter Notebooks and resources for person re-identific
 2. Detecting bounding boxes around persons in the frames.
 3. Cropping the detected objects (persons) from the frames.
 4. Clustering the cropped objects using k-means clustering.
-   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="![image](https://github.com/ankithagithub/Person_Re-Identification_using_Clustering/assets/144572147/f014523b-e7ef-429f-be3d-5a7cc34a29e4)
-">
-  <img alt="PIPLINE OF CLUSTER FOR RE-IDENTIFICATION" src="![image](https://github.com/ankithagithub/Person_Re-Identification_using_Clustering/assets/144572147/be4b92d1-6e69-4e3b-87dd-d6ff7b926fe1)
-">
-</picture>
 
+![PIPLINE OF CLUSTER FOR RE-IDENTIFICATION](https://github.com/ankithagithub/Person_Re-Identification_using_Clustering/assets/144572147/be4b92d1-6e69-4e3b-87dd-d6ff7b926fe1)
 
 ## Repository Structure
 - `video_to_frames1.ipynb`: Notebook to convert video files into individual frames.
@@ -28,12 +23,12 @@ First, clone the repository and navigate to the project directory:
 git clone https://github.com/ankithagithub/Person_Re-Identification_using_clustering.git
 cd Person_Re-Identification_using_clustering
 pip install -r requirements.txt
-'''
+```
 
 ## Usage
 Step 1: Convert Video to Frames
 
-Open video_to_frames.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to convert a video file into individual frames.
+Open video_to_frames1.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to convert a video file into individual frames.
 
 Step 2: Detect Bounding Boxes
 
@@ -45,8 +40,7 @@ Open bounding_boxes_to_cropped_objects.ipynb in Jupyter Notebook or Jupyter Lab 
 
 Step 4: Perform Clustering
 
-Open cropped_objects_clustering.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to perform k-means clustering on the cropped objects.
-
+Open K-Means_clustering.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to perform k-means clustering on the cropped objects.
 
 ## License
 
