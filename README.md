@@ -6,8 +6,10 @@ This repository contains Jupyter Notebooks and resources for person re-identific
 3. Cropping the detected objects (persons) from the frames.
 4. Clustering the cropped objects using k-means clustering.
    <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="">
-  <img alt="" src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <source media="(prefers-color-scheme: dark)" srcset="![image](https://github.com/ankithagithub/Person_Re-Identification_using_Clustering/assets/144572147/f014523b-e7ef-429f-be3d-5a7cc34a29e4)
+">
+  <img alt="PIPLINE OF CLUSTER FOR RE-IDENTIFICATION" src="![image](https://github.com/ankithagithub/Person_Re-Identification_using_Clustering/assets/144572147/be4b92d1-6e69-4e3b-87dd-d6ff7b926fe1)
+">
 </picture>
 
 
