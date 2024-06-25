@@ -20,39 +20,33 @@ First, clone the repository and navigate to the project directory:
 ```bash
 git clone https://github.com/ankithagithub/Person_Re-Identification_using_clustering.git
 cd Person_Re-Identification_using_clustering
-Then, install the required dependencies:
 pip install -r requirements.txt
-Usage
+
+## Usage
 Step 1: Convert Video to Frames
 
-Use video_to_frames.py to convert a video file into individual frames.
-
-bash
-
-python video_to_frames.py --input data/example_video.mp4 --output data/example_frames/
+Open video_to_frames.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to convert a video file into individual frames.
 
 Step 2: Detect Bounding Boxes
 
-Use frames_to_bounding_boxes.py to detect bounding boxes in the frames.
-
-bash
-
-python frames_to_bounding_boxes.py --input data/example_frames/ --output data/bounding_boxes/
+Open frames_to_bounding_boxes.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to detect bounding boxes in the frames.
 
 Step 3: Crop Objects from Frames
 
-Use bounding_boxes_to_cropped_objects.py to crop objects from frames based on the detected bounding boxes.
-
-bash
-
-python bounding_boxes_to_cropped_objects.py --input data/bounding_boxes/ --output data/cropped_objects/
+Open bounding_boxes_to_cropped_objects.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to crop objects from frames based on the detected bounding boxes.
 
 Step 4: Perform Clustering
 
-Use cropped_objects_clustering.py to perform k-means clustering on the cropped objects.
+Open cropped_objects_clustering.ipynb in Jupyter Notebook or Jupyter Lab and run the cells to perform k-means clustering on the cropped objects.
 
-bash
+## License
 
-python cropped_objects_clustering.py --input data/cropped_objects/ --output data/clusters/
+This project is licensed under the MIT License. See the LICENSE file for details.
 
+## Contributing
 
+Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
+
+##Acknowledgments
+
+Special thanks to all the contributors and the open-source community for providing the tools and libraries used in this project.
